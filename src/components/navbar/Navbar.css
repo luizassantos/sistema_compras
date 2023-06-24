@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap');
+
+
+.navbar-container{
+    background-color: #a54958;
+    padding: 0.5rem 0.6rem 0.5rem 0.3rem;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.navbar-div{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    margin-right: 10px;
+}
+
+.li-item{
+    margin-right: 25px;
+}
+
+.li-sair{
+    font-size: 18px;
+    margin-right: 35px;
+}
+
+.li-sair a{
+    color: white;
+    text-decoration: none;
+    font-weight:300;
+}
+.li-sair a:hover{
+    color: #f2b4ae;
+    text-decoration: none;
+    font-weight:400;
+}
+
+.pages-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight:500;
+}
+
+.pages-link:hover{
+    color: #dbd0d0;
+}
+
+@media (max-width: 575px) {
+    .logo {
+        font-size: 1.4rem;
+    }
+    .produtos-link{
+        display: none;
+    }
+}
